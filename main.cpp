@@ -2,7 +2,7 @@
 #include "car.h"
 
 int main(){
-	testCar();
+	//testCar();
 	loadDataSet();
 	return EXIT_SUCCESS;
 }
