@@ -1,7 +1,7 @@
 #include "carincludes.h"
-#include "car.h"
 
-car::car getCar(const string, const int);
+
+
 
 void loadDataSet(){
 	ifstream data("mtcars.csv");

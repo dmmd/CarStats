@@ -5,11 +5,12 @@
 #include <string>
 #include <sstream>
 #include <fstream>
-
+#include "car.h"
 
 using namespace std;
 
 void testCar();
 void loadDataSet();
+car::car getCar(const string, const int);
 
 #endif
