@@ -5,12 +5,14 @@
 #include <string>
 #include <sstream>
 #include <fstream>
+#include <vector>
+
 #include "car.h"
 
 using namespace std;
 
 void testCar();
-void loadDataSet();
+vector<car::car> loadDataSet();
 car::car getCar(const string, const int);
 
 #endif

@@ -3,7 +3,7 @@
 
 int main(){
 	//testCar();
-	loadDataSet();
+	vector<car::car> cars = loadDataSet();
 	return EXIT_SUCCESS;
 }
 

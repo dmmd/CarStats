@@ -1,19 +1,19 @@
 #include "carincludes.h"
+#include <vector>
 
-
-
-
-void loadDataSet(){
+vector<car::car> loadDataSet(){
 	ifstream data("mtcars.csv");
 	string line;
 	int i = 0;
+	vector<car::car> carvector;
 	while ( data.good() ){
 	  	getline (data,line);
 		car::car car = getCar(line, i);
-		cout << car.toString();
+		carvector.push_back(car);
 		
 	}
 	cout << "dataset loaded";
+	return carvector;
 }
 
 car::car getCar(const string s, const int id){
